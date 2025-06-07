@@ -2,6 +2,14 @@ import { cleanup } from "@testing-library/react";
 
 afterEach(cleanup);
 
+vi.mock("next/navigation", () => ({
+  useRouter: () => ({ replace: vi.fn() }),
+  usePathname: () => "/",
+  useSearchParams: () => ({
+    toString: () => ""
+  })
+}));
+
 Object.defineProperty(window, "matchMedia", {
   writable: true,
   value: vi.fn().mockImplementation(query => ({
