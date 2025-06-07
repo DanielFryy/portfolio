@@ -16,19 +16,19 @@ const Hero = (props: Props) => {
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse delay-1000" />
       </div>
 
-      <div className="container mx-auto px-4 text-center relative z-10">
-        <div className="flex justify-center mb-6">
+      <div className="container px-4 text-center relative z-10 flex flex-col gap-6 items-center justify-center">
+        <div className="flex justify-center">
           <div className="relative">
             <Code className="h-16 w-16 text-blue-600 animate-bounce" />
             <Sparkles className="h-6 w-6 text-purple-600 absolute -top-2 -right-2 animate-pulse" />
           </div>
         </div>
 
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-blue-800 to-purple-800 dark:from-white dark:via-blue-200 dark:to-purple-200 bg-clip-text text-transparent">
+        <h1 className="text-5xl md:text-7xl leading-20 font-bold bg-gradient-to-r from-gray-900 via-blue-800 to-purple-800 dark:from-white dark:via-blue-200 dark:to-purple-200 bg-clip-text text-transparent">
           Full Stack Engineer
         </h1>
 
-        <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl leading-relaxed pb-2">
           Passionate about experimenting with new technologies, following the latest trends, and building innovative
           tools to solve real-world problems.
         </p>
