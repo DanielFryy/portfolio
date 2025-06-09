@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "title": "Archittect",
+    "description": "A powerful VSCode extension that helps developers visualize and manage their project architecture. Features include dependency graphs, code analysis, and architectural pattern suggestions.",
+    "icon": "Puzzle",
+    "technologies": ["TypeScript", "VSCode API", "Node.js", "D3.js", "Webpack"],
+    "githubUrl": "https://github.com/username/archittect",
+    "liveUrl": "https://marketplace.visualstudio.com/items?itemName=username.archittect",
+    "gradient": "from-blue-500 to-cyan-500"
+  },
+  {
+    "id": "2",
+    "title": "og-tools",
+    "description": "A comprehensive web application featuring custom calculators and tools specifically designed for game developers and enthusiasts. Includes damage calculators, stat optimizers, and build planners.",
+    "icon": "Calculator",
+    "technologies": ["Next.js", "React", "Tailwind CSS", "Vercel", "TypeScript"],
+    "githubUrl": "https://github.com/username/og-tools",
+    "liveUrl": "https://og-tools.vercel.app",
+    "gradient": "from-purple-500 to-pink-500"
+  }
+]

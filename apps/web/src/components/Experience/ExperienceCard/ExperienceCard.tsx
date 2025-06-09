@@ -10,7 +10,12 @@ const ExperienceCard = (props: Props) => {
   const { title, company, year, location, description, technologies } = experience;
 
   return (
-    <Card className={twMerge("group hover:shadow-lg transition-all duration-300 hover:-translate-y-1", className)}>
+    <Card
+      className={twMerge(
+        "ExperienceCard group hover:shadow-lg transition-all duration-300 hover:-translate-y-1",
+        className
+      )}
+    >
       <CardHeader className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         <CardTitle className="text-2xl">{title}</CardTitle>
         <div className="flex flex-col sm:flex-row sm:items-center gap-2 text-muted-foreground">

@@ -14,7 +14,7 @@ const About = (props: Props) => {
         </div>
 
         <div className="max-w-4xl flex flex-col gap-12 items-center">
-          <div className="flex flex-col gap-6 text-lg text-muted-foreground leading-relaxed text-center">
+          <div className="flex flex-col gap-6 text-xl text-muted-foreground leading-relaxed text-center">
             <p>
               My journey in software development has been an exciting evolution across different platforms and
               technologies. I started my career diving deep into mobile development with React Native, where I learned
