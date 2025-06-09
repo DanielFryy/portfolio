@@ -10,7 +10,7 @@ const About = (props: Props) => {
       <div className="container px-4 flex flex-col gap-16 items-center">
         <div className="flex flex-col items-center gap-6">
           <h2 className="text-4xl md:text-5xl font-bold">About Me</h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600" />
         </div>
 
         <div className="max-w-4xl flex flex-col gap-12 items-center">

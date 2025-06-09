@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "year": "2023 - Present",
+    "title": "Senior Full Stack Engineer",
+    "company": "Tech Innovation Corp",
+    "location": "Remote",
+    "description": "Leading development of cloud-native applications using Next.js, AWS Lambda, and serverless architecture. Mentoring junior developers and driving technical decisions for scalable solutions.",
+    "technologies": ["Next.js", "AWS", "TypeScript", "Serverless", "DynamoDB"]
+  },
+  {
+    "id": "2",
+    "year": "2022 - 2023",
+    "title": "Full Stack Developer",
+    "company": "Digital Solutions Inc",
+    "location": "San Francisco, CA",
+    "description": "Built responsive web applications and mobile solutions using React, React Native, and Node.js. Collaborated with cross-functional teams to deliver high-quality products on time.",
+    "technologies": ["React", "React Native", "Node.js", "PostgreSQL", "Docker"]
+  },
+  {
+    "id": "3",
+    "year": "2021 - 2022",
+    "title": "Mobile Developer",
+    "company": "StartupXYZ",
+    "location": "Austin, TX",
+    "description": "Developed cross-platform mobile applications from concept to deployment. Implemented complex UI/UX designs and integrated with various APIs and third-party services.",
+    "technologies": ["React Native", "Redux", "Firebase", "REST APIs", "iOS/Android"]
+  }
+]
